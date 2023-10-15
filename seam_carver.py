@@ -14,8 +14,8 @@ def compute_energy(image: np.ndarray):
     energy = np.sqrt(delta_sq)
 
     #border pixels set to 1000
-    energy[:,0] = 1000
-    energy[0,:] = 1000
+    energy[:, 0] = 1000
+    energy[0, :] = 1000
     energy[image.shape[0]-1, :] = 1000
     energy[:, image.shape[1]-1] = 1000
 
@@ -40,7 +40,7 @@ def find_vertical_seam(image: np.ndarray, energy=None):
         np.random.set_state(random_state)
 
     r, c = energy.shape
-    sol = np.zeros((r,c), dtype = int)
+    sol = np.zeros((r, c), dtype = int)
     cM = energy.copy()
     min_seam = np.zeros(r, dtype= int)
 
