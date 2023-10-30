@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Users\dongr\Documents\GitHub\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\x64\Release\kernel.cu.obj "D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\kernel.cu" 
+  kernel.cu
+D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\kernel.cu(211): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\kernel.cu(238): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
+  D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\kernel.cu(238): note: consider using '%zd' in the format string
+     Creating library D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\x64\Release\SeamCarver.lib and object D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\x64\Release\SeamCarver.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  SeamCarver.vcxproj -> D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\x64\Release\SeamCarver.exe

@@ -1,0 +1,1 @@
+D:\CUDA-SeamCarver\SeamCarver2\project\SeamCarver\x64\Release\SeamCarver.exe
