@@ -86,7 +86,7 @@ def run_batch(num_seams: int, num_iterations: int):
             mask = np.full(image.shape, True, dtype=bool)
             mask[vertical_indices, horizontal_indices] = False
             image = image[mask].reshape((image.shape[0], image.shape[1] - 1, image.shape[2]))
-        final_image = Image.fromarray(image.astype(np.uint8))
+        #final_image = Image.fromarray(image.astype(np.uint8))
         #final_image.save("carved_images/{}_{}_carved.png".format(num_seams, image))
     end_time = time.time()
 
