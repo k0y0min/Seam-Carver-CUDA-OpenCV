@@ -50,6 +50,7 @@ To get started with OpenCV and CUDA for Seam Carving, please follow the installa
 
 ---
 
+![InputImage](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/f5e70a12-43aa-462e-a48d-03204cc6ecb5)
+![vertical_carving_final](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/3ce0458e-85c8-4f9f-a129-984db37f7775)
 
-![InputImage](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/76d5b226-544d-4569-869f-d3fdbb8b1875)
-![vertical_carving_final](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/bb87fe84-e289-4368-bdd7-40ebf2d303ca)
+![energy](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/c865448b-f39b-46e1-822e-38b865ed49f4)
