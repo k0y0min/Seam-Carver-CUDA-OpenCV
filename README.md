@@ -55,6 +55,6 @@ To get started with OpenCV and CUDA for Seam Carving, please follow the installa
 ![vertical_carving_final](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/3ce0458e-85c8-4f9f-a129-984db37f7775)
 #### Energy Map (728*410)
 ![energy](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/c865448b-f39b-46e1-822e-38b865ed49f4)
-#### Carving Animation
+#### Carving Animation (64 colors)
 ![vertical-carvingc](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/8c6659eb-82d8-4007-a5f7-14a056cbb751)
 
