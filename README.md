@@ -49,9 +49,12 @@ To get started with OpenCV and CUDA for Seam Carving, please follow the installa
    - This version also does not require any command-line arguments but needs an `images/` folder in the current directory.
 
 ---
-
+#### Original Image (728*410)
 ![InputImage](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/f5e70a12-43aa-462e-a48d-03204cc6ecb5)
-
+#### Vertically-carved Image (528*410)
 ![vertical_carving_final](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/3ce0458e-85c8-4f9f-a129-984db37f7775)
-
+#### Energy Map (728*410)
 ![energy](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/c865448b-f39b-46e1-822e-38b865ed49f4)
+#### Carving Animation
+![vertical-carvingc](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/8c6659eb-82d8-4007-a5f7-14a056cbb751)
+
