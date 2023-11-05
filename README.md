@@ -49,3 +49,7 @@ To get started with OpenCV and CUDA for Seam Carving, please follow the installa
    - This version also does not require any command-line arguments but needs an `images/` folder in the current directory.
 
 ---
+
+
+![InputImage](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/76d5b226-544d-4569-869f-d3fdbb8b1875)
+![vertical_carving_final](https://github.com/k0y0min/Seam-Carver-CUDA-OpenCV/assets/62639710/bb87fe84-e289-4368-bdd7-40ebf2d303ca)
